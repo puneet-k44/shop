@@ -1,0 +1,45 @@
+{% render 'dynamicbanner' %}
+
+
+{% schema %}
+{
+  "name": "custombanner",
+  "settings": [
+    {
+      "type": "select",
+      "id": "ball_position",
+	  "label": "Position",	
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        },
+        {
+          "value": "top",
+          "label": "Top"
+        },
+		{
+          "value": "center",
+          "label": "center"
+        },
+		{
+          "value": "bottom",
+          "label": "bottom"
+        }
+      ],
+	  "default": "center",
+      "label": "center"	
+    }
+  ], 
+  "presets": [
+    {
+      "name": "Custom Ball Banner",
+      "category": "Custom"	
+    }
+  ]	
+}
+{% endschema %}

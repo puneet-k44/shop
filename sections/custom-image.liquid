@@ -1,0 +1,37 @@
+{% capture heading %}
+  Monkeys!
+{% endcapture %}
+...
+<h1>{{ heading }}</h1>
+
+
+{% capture collectionslug %}
+	{{ collection.handle | remove:"-all"}}
+{% endcapture %}
+
+
+
+{% schema %}
+  {
+    "name": "Custom Image",
+    "settings": [
+			{
+          "type": "image_picker",
+          "id": "custom_img_sec",
+          "label": "Test!!.."
+        }
+	],
+ "presets": [
+    {
+      "name": "Custom Image",
+      "category": "Custom"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

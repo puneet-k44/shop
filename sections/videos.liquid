@@ -1,0 +1,53 @@
+{% render "videodesign" %}
+{% schema %}
+  {
+	"name": "Video",
+	"class": "video-section",
+    "max_blocks": 2,
+  	"blocks": [
+        {
+          "type": "VideoUrls",
+          "name": "Text",
+          "settings":[
+              {
+                "type": "text",
+                "id": "video_url",
+                "label": "Youtube Url"
+              },
+			  {
+                "type": "text",
+                "id": "vimeo_url",
+                "label": "Vimeo Url"
+              }	
+          ]
+        },
+        {
+          "type": "VideoContent",
+          "name": "Rich Text",
+          "settings":[
+            {
+              "type": "richtext",
+              "id": "video_text",
+              "label": "Video Text"
+            },
+			{
+                "type": "text",
+                "id": "video_url",
+                "label": "Youtube Url"
+              },
+			  {
+                "type": "text",
+                "id": "vimeo_url",
+                "label": "Vimeo Url"
+              }	
+          ]
+        }
+     ],	
+    "presets": [
+      {
+        "name": "Video Section",
+        "category": "Custom"
+      }
+    ]
+}
+{% endschema %}

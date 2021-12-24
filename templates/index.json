@@ -1,0 +1,134 @@
+{
+  "sections": {
+    "1629804330956d6781": {
+      "type": "powr-popup",
+      "settings": {}
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/belly_banner_right3.jpg",
+        "image_2": "shopify:\/\/shop_images\/adult-american-busy-1372973.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
+    "1627880120690b32b8": {
+      "type": "custombanner",
+      "settings": {
+        "ball_position": "right"
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "frontpage",
+        "products_to_show": 2,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_vendor": false
+      }
+    },
+    "image_text": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
+    "16268624191fa1634c": {
+      "type": "custom-image",
+      "settings": {}
+    },
+    "1627451766f6d60c5d": {
+      "type": "videos",
+      "blocks": {
+        "b7ef99a5-f388-4f21-b611-ce79a47be7bb": {
+          "type": "VideoUrls",
+          "settings": {
+            "video_url": "",
+            "vimeo_url": "https:\/\/player.vimeo.com\/video\/252443587"
+          }
+        },
+        "e13bc335-a3a7-4aa5-aabc-ed5b1eb43e47": {
+          "type": "VideoContent",
+          "settings": {
+            "video_text": "<p><br\/>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing<br\/><br\/><\/p>",
+            "video_url": "",
+            "vimeo_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "b7ef99a5-f388-4f21-b611-ce79a47be7bb",
+        "e13bc335-a3a7-4aa5-aabc-ed5b1eb43e47"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "1629804330956d6781",
+    "image_banner",
+    "1627880120690b32b8",
+    "featured_products",
+    "image_text",
+    "16268624191fa1634c",
+    "1627451766f6d60c5d"
+  ]
+}

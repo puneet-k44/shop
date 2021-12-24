@@ -1,0 +1,42 @@
+<div class="video_section">
+  <div class="page-width">
+    <div class="video_inner">
+      {% for block in section.blocks %}
+      {% case block.type %}
+
+      {% when 'VideoUrls' %} 
+      <div class="video_holder">
+
+        {% if block.settings.video_url != blank %} 
+        <iframe src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+
+        {% if block.settings.vimeo_url != blank %} 	
+		<iframe src="{{ block.settings.vimeo_url }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+
+      </div>
+      {% when 'VideoContent' %}
+      <div class="video_text">
+        {% if block.settings.video_text != blank %} 
+        	{{ block.settings.video_text }}
+        {% endif %}
+        
+        {% if block.settings.video_url != blank %} 
+        <iframe src="{{ block.settings.video_url }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+
+        {% if block.settings.vimeo_url != blank %} 	
+		<iframe src="{{ block.settings.vimeo_url }}" frameborder="0" allowfullscreen></iframe>
+        {% endif %}
+      </div>
+
+
+      {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
