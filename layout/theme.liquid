@@ -113,7 +113,8 @@
     {%- endunless -%}
 
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
-  </head>
+  {% include 'sca-quick-view-init' %}
+ </head>
 
   <body class="{{ template }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -159,6 +160,7 @@
     <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
     
    <div class="index-section--flush powr-popup" id="1db8bc5d_1629804005"></div>
+ {% include 'sca-quick-view-template' %} 
  </body> 
 </html>
 {% include 'globo.menu.script' %}
