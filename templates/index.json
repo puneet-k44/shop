@@ -194,13 +194,20 @@
           "settings": {
             "product_type": "black-print"
           }
+        },
+        "6546d1d1-29d6-4d36-8262-ad932065efd8": {
+          "type": "product-type",
+          "settings": {
+            "product_type": "us-polo"
+          }
         }
       },
       "block_order": [
         "83882585-e663-4584-ad33-cd4e3d29a352",
         "c8fd1e61-72a4-41dd-868e-1fb2d44e1575",
         "9b7b8c1c-3d16-4440-bc9d-b1f7f5370329",
-        "ccc804ac-61d2-4e32-8915-80c30d41fe44"
+        "ccc804ac-61d2-4e32-8915-80c30d41fe44",
+        "6546d1d1-29d6-4d36-8262-ad932065efd8"
       ],
       "settings": {
       }
