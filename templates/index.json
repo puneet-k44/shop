@@ -2,7 +2,8 @@
   "sections": {
     "1629804330956d6781": {
       "type": "powr-popup",
-      "settings": {}
+      "settings": {
+      }
     },
     "image_banner": {
       "type": "image-banner",
@@ -94,7 +95,8 @@
     },
     "16268624191fa1634c": {
       "type": "custom-image",
-      "settings": {}
+      "settings": {
+      }
     },
     "1627451766f6d60c5d": {
       "type": "videos",
@@ -119,7 +121,14 @@
         "b7ef99a5-f388-4f21-b611-ce79a47be7bb",
         "e13bc335-a3a7-4aa5-aabc-ed5b1eb43e47"
       ],
-      "settings": {}
+      "settings": {
+      }
+    },
+    "1648536012ae2f0c21": {
+      "type": "product-type",
+      "settings": {
+        "product_type": "green-design"
+      }
     }
   },
   "order": [
@@ -129,6 +138,7 @@
     "featured_products",
     "image_text",
     "16268624191fa1634c",
-    "1627451766f6d60c5d"
+    "1627451766f6d60c5d",
+    "1648536012ae2f0c21"
   ]
 }
