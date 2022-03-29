@@ -126,8 +126,39 @@
     },
     "1648536012ae2f0c21": {
       "type": "product-type",
+      "blocks": {
+        "405cc4a3-844e-4129-901c-2bd52f97f8db": {
+          "type": "product-type",
+          "settings": {
+            "product_type": "black-print"
+          }
+        },
+        "92a84a3d-7712-4f42-9b94-13b359e4c556": {
+          "type": "product-type",
+          "settings": {
+            "product_type": "green-design"
+          }
+        },
+        "830b1080-29dc-4d5e-b1c4-0dbea08bf9b7": {
+          "type": "product-type",
+          "settings": {
+            "product_type": "orange-design"
+          }
+        },
+        "8b71e1e5-e144-4cc0-a206-0c9cac895c5b": {
+          "type": "product-type",
+          "settings": {
+            "product_type": "us-polo"
+          }
+        }
+      },
+      "block_order": [
+        "405cc4a3-844e-4129-901c-2bd52f97f8db",
+        "92a84a3d-7712-4f42-9b94-13b359e4c556",
+        "830b1080-29dc-4d5e-b1c4-0dbea08bf9b7",
+        "8b71e1e5-e144-4cc0-a206-0c9cac895c5b"
+      ],
       "settings": {
-        "product_type": "green-design"
       }
     }
   },
