@@ -1,8 +1,8 @@
 <div class="product_type">
-  
   {% for block in section.blocks %}
-  	{{ block.settings.product.title }} 
-  {% endfor %}
+  {% assign product = section.settings.product_type %}
+            {{ product.title }}
+        {% endfor %}
 	
   
 </div>
